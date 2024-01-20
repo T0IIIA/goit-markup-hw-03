@@ -1,0 +1,144 @@
+
+/* ==============MAIN================ */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFF;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ==============INTERACTIVE================ */
+
+.header-link {
+color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.address-link {
+  color: #434455;
+}
+
+.header-link:hover, 
+.header-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: #404BBF
+}
+
+.address {
+  font-style: normal;
+}
+
+.button {
+  background-color: #4D5AE5;
+  color: #FFF;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover, 
+.button:focus {
+  background-color: #404BBF;
+}
+
+/* ==============MAIN================ */
+
+.logo {
+  color:#4D5AE5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-span-two {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.solutions {
+  background-color: #2E2F42;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.team-list {
+ color: #2E2F42;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 1.20;
+ letter-spacing: 0.02em;
+}
+
+.about-team {
+  background-color: #F4F4FD;
+}
+
+h2 {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #2E2F42;
+
+}
+
+.footer-txt {
+  color: #F4F4FD;
+}
+
+.our-team-list {
+  background-color: #FFFFFF;
+}
+
+.person-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
