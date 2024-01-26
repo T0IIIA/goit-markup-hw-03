@@ -1,5 +1,6 @@
-
-/* ==============MAIN================ */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -7,6 +8,28 @@ body {
   background-color: #FFF;
   line-height: 1.5;
   letter-spacing: 0.02em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 a {
@@ -16,10 +39,27 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  /* padding-left: 
+  padding-right: 
+  margin-left: 
+  margin-right: */
+}
+
+main {
+  flex-grow: 1;
 }
 
 /* ==============INTERACTIVE================ */
-
 .header-link {
 color: #2e2f42;
   font-size: 16px;
@@ -66,6 +106,7 @@ color: #2e2f42;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+    flex-shrink: 0;
 }
 
 .logo-span {
@@ -90,15 +131,6 @@ color: #2e2f42;
   background-color: #2E2F42;
 }
 
-h1 {
-  color: #FFF;
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-
 .team-list {
  color: #2E2F42;
  font-size: 20px;
@@ -109,16 +141,6 @@ h1 {
 
 .about-team {
   background-color: #F4F4FD;
-}
-
-h2 {
-  color: #2E2F42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .footer {
