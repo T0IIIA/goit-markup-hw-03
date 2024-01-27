@@ -99,7 +99,6 @@ color: #2e2f42;
 /* ==============MAIN================ */
 
 .logo {
-  display: inline-block;
   color:#4D5AE5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -168,16 +167,16 @@ color: #2e2f42;
 }
 
 .footer {
+  padding: 100px 0;
   background-color: #2E2F42;
   width: 100%;
   height: 312px;
   flex-shrink: 0;
-  padding-top: 100px;
+  padding-top: 100px 0;
 }
 
 .footer-txt {
   color: #F4F4FD;
-  margin-top: 16px;
   width: 264px;
 }
 
@@ -231,15 +230,21 @@ color: #2e2f42;
   align-items: center
 }
 
+.second-class {
+  padding: 120px 0;
+}
+
 .visually-hidden {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  border: 0 !important;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .team-item {
@@ -254,11 +259,12 @@ color: #2e2f42;
 
 .card-items {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .card {
-  padding: 32px 0 32px 16px;
+  padding: 32px 0;
 }
 
 .portfolio-section {
@@ -281,7 +287,15 @@ width: 360px;
 height: 420px;
 flex-direction: column;
 flex-shrink: 0;
-border: 1px solid #E7E9FC;
 background: #FFF;
 }
 
+.card-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+
+.footer a{
+  display: inline-block;
+  margin-bottom: 16px;
+}
