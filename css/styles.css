@@ -259,8 +259,7 @@ color: #2e2f42;
 
 .card-items {
   display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px
 }
 
 .card {
@@ -278,7 +277,8 @@ color: #2e2f42;
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list li {
@@ -293,6 +293,7 @@ background: #FFF;
 .card-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .footer a{
