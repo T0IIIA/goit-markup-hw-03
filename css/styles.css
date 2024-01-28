@@ -112,12 +112,6 @@ main {
   margin-right: 76px;
 }
 
-.footer .logo {
-  margin-right: 0px;
-}
-
-
-
 .logo-span {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -305,4 +299,5 @@ background: #FFF;
 .footer a{
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
